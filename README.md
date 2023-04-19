@@ -8,12 +8,19 @@
 </p>
 
 
+[index.webm](https://user-images.githubusercontent.com/87764538/233081785-dec74e02-532c-47e9-9bf7-e21c7e38553d.webm)
+
+
+---
+
+
 ## 📂Table of Contents
 - [📋Project Description](#project-description)
 - [⛏️Built Using](#️built-using)
 - [✍Authors](#authors)
 - [💳License](#license)
 - [🏅Acknowledgments](#acknowledgments)
+
 
 ## 📋Project Description
 A simple blog consists of two pages, the home page (index.html) and the blog page (blog-post.html) for "What is the Point of Life?!" article **only**.
@@ -39,6 +46,11 @@ Assets:
   - [ΛΖΞ](https://pixabay.com/users/%CE%BB%CE%B6%CE%BE-3271136/)
   - [StockSnap](https://pixabay.com/users/stocksnap-894430/)
   - [geralt](https://pixabay.com/users/geralt-9301/)
+
+
+## 🔍 Explore The Project
+- [Blogmors](https://github.com/mohammed-aldhabaab.github.io/blogmors)
+
 
 ## ✍Authors
 - [@Mohammed-Aldhabaab](github.com/Mohammed-Aldhabaab)
