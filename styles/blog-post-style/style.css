@@ -1,0 +1,152 @@
+/*******************************************************
+                    table of contents
+    
+    1.mobile-styles
+    2.tablet-styles
+    3.desktop-styles
+********************************************************/
+/* mobile-style */
+.author-aside-container {
+    display: none;
+}
+
+
+.contents-container,
+.author-main-container,
+.article-container,
+.author-aside {
+    padding: var(--size-200);
+}
+
+
+.article-details {
+    flex-grow: 1;
+}
+
+
+.article-sub-title {
+    margin-top: 44px;
+    margin-bottom: 11px;
+    padding-bottom: 4px;
+    position: relative;
+}
+
+
+.article-sub-title::after {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.8px;
+    background: var(--primary-color);
+    box-shadow: var(--gm-box-shadow);
+    border-radius: var(--gm-border-radius);
+}
+
+
+.article-paragraph {
+    margin-bottom: 22px;
+}
+
+
+blockquote {
+    text-align: center;
+}
+
+
+@media (max-width: 422px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+/******************* 2.tablet style *******************/
+@media (min-width: 442px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+/******************* 3.desktop style *******************/
+@media (min-width: 960px) {
+    .author-aside-container {
+        display: block;
+    }
+
+    
+    /* for main-container */
+    .main-container {
+        display: grid;
+        grid-template:          "header  header   header"
+                                "......  contents ......"
+                                "footer  footer   footer"
+                                /auto   minmax(auto, var(--main-container-max-width))     auto
+                        ;
+    }
+
+
+    .header-container {
+        grid-area: header;
+    }
+
+    
+    .contents-container {
+        grid-area: contents;
+    }
+
+    
+    .footer-container {
+        grid-area: footer;
+    }
+
+
+    .contents-container {
+        grid-template: "author-main author-aside"
+                        "article    author-aside"
+                        /2fr        1fr;
+    }
+
+
+    .author-main-container {
+        grid-area: author-main;
+    }
+
+    
+    .author-aside-container {
+        grid-area: author-aside;
+    }
+
+
+    .article-container {
+        grid-area: article;
+    }
+
+
+    .author-aside {
+        position: sticky;
+        top: var(--size-200);
+    }
+
+
+    .special-avatar-container {
+        max-width: 60px;
+    }
+
+
+    .author-social-media {
+        margin-top: 10px;
+    }
+
+
+    .author-more-article-title-link {
+        color: var(--secondary-color);
+    }
+
+
+    .author-more-article-image {
+        max-width: 110px;
+    }
+}

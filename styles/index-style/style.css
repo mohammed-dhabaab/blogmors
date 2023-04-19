@@ -1,0 +1,160 @@
+/*******************************************************
+                    table of contents
+    
+    1.mobile styles
+        1.layout
+        2.contents-container styles
+    2.tablet styles
+        1.layout
+    3.desktop styles
+        1.layout
+        2.contents-container styles\layout
+********************************************************/
+/******************* 1.mobile style *******************/
+/* 1.layout */
+.contents-container,
+.hero-container,
+.discovering-contents{
+    padding: var(--size-200);
+}
+
+
+@media (max-width: 442px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+/* 2.contents-container styles  
+for contents-container which is the most unique for every page
+*/
+/* header section */
+.hero-title {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-700);
+}
+
+/* hero */
+.start-discovering-btn {
+    font-weight: var(--fw-600);
+}
+
+
+/* discovering section */
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* cards section */
+.card {
+    padding: var(--size-200) var(--size-200);
+}
+
+
+/******************* 2.tablet style *******************/
+@media (min-width: 442px) {
+    /* 1.layout */
+    html {
+            font-size: 16px;
+    }
+
+    /* to fix has unnecessary
+    extra growth when hovering on it */
+    .start-discovering-btn:hover{
+        transform: scale(1.03);
+    }
+    
+}
+
+
+/******************* 3.desktop style *******************/
+@media (min-width: 960px) {
+    /* 1.layout */
+    /* for main-container */
+    .main-container {
+        grid-template:          "header  header   header"
+                                "......  contents ......"
+                                "footer  footer   footer"
+                                /auto   minmax(auto, var(--main-container-max-width))     auto
+                        ;
+    }
+
+
+    .header-container {
+        grid-area: header;
+    }
+
+    
+    .contents-container {
+        grid-area: contents;
+    }
+
+    
+    .footer-container {
+        grid-area: footer;
+    }
+
+
+    /* for contents-container */
+    .contents-container {
+        display: grid;
+        grid-template: "hero hero hero"
+                        "card card discovering"
+                        /auto auto auto;
+    }
+
+
+    .hero-container {
+        grid-area: hero;
+    }
+
+
+    .discovering-container {
+        grid-area: discovering;
+    }
+
+
+    .cards-container {
+        grid-area: card;
+    }
+
+
+    /* 2.contents-container styles\layout  
+    for contents-container which is the most unique for every page
+    */
+    /* hero section */
+    .hero-container {
+        flex-direction: row;
+    }
+
+
+    .hero-contents {
+        justify-content: center;
+    }
+
+
+    .start-discovering-btn {
+        margin-top: var(--size-300);
+    }
+
+
+    /* cards section */
+    .card {
+        flex-direction: row;
+    }
+
+
+    /* discovering section */
+    .discovering-container {
+        justify-content: initial;
+    }
+
+
+    .discovering-contents {
+        position: sticky;
+        top: var(--size-200);
+    }
+}

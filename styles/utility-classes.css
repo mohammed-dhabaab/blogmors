@@ -1,0 +1,137 @@
+/*******************************************************
+                    table of contents
+    
+    1.grid classes
+    2.flexbox classes
+    3.gaps
+    4.styles
+        1.glassmorphism background
+        2.buttons
+        3.active page
+********************************************************/
+/******************* 1.grid classes *******************/
+.grid {
+    display: grid;
+}
+
+
+.grid-center {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/****************** 2.flexbox classes ******************/
+.flex {
+    display: flex;
+}
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+
+/* flexbox-horizontal alignment */
+.flex-align-justify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* flexbox-vertical alignment */
+.flex-align-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*********************** 3.gaps ***********************/
+.gap-50 {
+    gap: var(--size-50);
+}
+
+
+.gap-100 {
+    gap: var(--size-100);
+}
+
+
+.gap-200 {
+    gap: var(--size-200);
+}
+
+
+.gap-300 {
+    gap: var(--size-300);
+}
+
+
+/********************** 3.styles **********************/
+/* 1.glassmorphism background */
+.glass-bg {
+    background: var(--gm-bg-color);
+    box-shadow: var(--gm-box-shadow);
+    border: var(--gm-border);
+    border-radius: var(--gm-border-radius);
+    backdrop-filter: var(--gm-backdrop-filter);
+    -webkit-backdrop-filter: var(--gm-backdrop-filter);
+}
+
+
+/* 2.buttons */
+.btn-1,
+.btn-2 {
+    border-radius: var(--btn-radius);
+    backdrop-filter: var(--btn-backdrop-filter);
+    -webkit-backdrop-filter: var(--btn-backdrop-filter);
+    box-shadow: var(--btn-box-shadow);
+    padding: var(--btn-padding);
+}
+
+
+.btn-1 {
+    background: var(--btn-bg-color);
+    border: var(--btn-border);
+}
+
+
+.btn-2 {
+    background: var(--gm-bg-color);
+    outline: var(--gm-border);
+}
+
+
+.btn-1:hover,
+.btn-2:hover {
+    opacity: 2;
+    transform: scale(1.08);
+    font-weight: var(--fw-600);
+    background: var(--btn-bg-color);
+    outline: var(--btn-border);
+    color: var(--primary-color);
+}
+
+
+/* 3.active page */
+.active-page {
+    color: var(--thirdly-color);
+}
