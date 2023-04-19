@@ -8,9 +8,6 @@
 </p>
 
 
-[index.webm](https://user-images.githubusercontent.com/87764538/233081785-dec74e02-532c-47e9-9bf7-e21c7e38553d.webm)
-
-
 ---
 
 
