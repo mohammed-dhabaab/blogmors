@@ -43,7 +43,7 @@ Assets:
 
 
 ## 🔍 Explore The Project
-- [Blogmors](https://github.com/mohammed-aldhabaab.github.io/blogmors)
+- [Blogmors](https://mohammed-dhabaab.github.io/blogmors/)
 
 
 ## ✍Authors
