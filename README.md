@@ -17,15 +17,15 @@
 
 
 ## 📋Project Description
-A simple blog consists of two pages, the home page (index.html) and the blog page (blog-post.html) for "What is the Point of Life?!" article **only**.
+A simple blog consists of two pages, the home page (index.html) and the blog post page (blog-post.html) for "What is the Point of Life?!" article **only**.
 
 
 ## ⛏️Built Using
-Coding:
+Software Tools:
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Structuring
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Styling
 
-Designing:
+Design Tools:
 - [Figma](https://www.figma.com/): Designing the UI
 - [Canva](https://www.canva.com/): Designing 
 - [Photoshop](https://www.adobe.com/products/photoshop.html): Designing
@@ -33,7 +33,7 @@ Designing:
 Assets:
 - [Avaters (Cécile L. Parker)](https://dribbble.com/Cecile0112358): Provided avaters
 - [Font Awesome](https://fontawesome.com/v4/icons/): Provided icons
-- [@Mohammed-Aldhabaab](github.com/Mohammed-Aldhabaab): Provided some images
+- [@Mohammed-Aldhabaab](github.com/mohammed-dhabaab): Provided some images
 - [pixabay](https://pixabay.com): Provided some images
   - [JillWellington](https://pixabay.com/users/jillwellington-334088/)
   - [B_A](https://pixabay.com/users/b_a-363247/)
