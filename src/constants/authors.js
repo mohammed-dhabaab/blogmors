@@ -1,0 +1,135 @@
+import { featuredPosts } from ".";
+import {
+  heroImg,
+  mohammedDhabaabAuthorImg,
+  alinaVolkovaAuthorImg,
+  jamesGreenAuthorImg,
+  saraJoyAuthorImg,
+  linkedinImg,
+  xImg,
+  instagramImg,
+  xSVG,
+} from "../assets";
+
+export const authors = {
+  mohammed_dhabaab: {
+    firstName: "Mohammed",
+    lastName: "Dhabaab",
+    name: "Mohammed Dhabaab",
+    title: "Philosopher",
+    bio: "Mohammed is a writer and philosopher who loves to explore the meaning of life and the universe",
+    image: mohammedDhabaabAuthorImg,
+    links: [
+      {
+        id: "linkedin",
+        title: "LinkedIn",
+        link: "https://www.linkedin.com/in/mohammed-dhabaab/",
+        icon: linkedinImg,
+      },
+      {
+        id: "x",
+        title: "X",
+        link: "https://x.com/",
+        icon: xImg,
+      },
+      {
+        id: "instagram",
+        title: "Instagram",
+        link: "https://www.instagram.com/",
+        icon: instagramImg,
+      },
+    ],
+    posts: [1, 5],
+    featuredPosts: [1, 5],
+  },
+  alina_volkova: {
+    firstName: "Alina",
+    lastName: "Volkova",
+    name: "Alina Volkova",
+    title: "Nutritionist Doctor",
+    bio: "Alina is a renowned nutritionist doctor dedicated to promoting optimal health through personalized dietary and lifestyle interventions",
+    image: alinaVolkovaAuthorImg,
+    links: [
+      {
+        id: "linkedin",
+        title: "LinkedIn",
+        link: "https://www.linkedin.com/",
+        icon: linkedinImg,
+      },
+      {
+        id: "x",
+        title: "X",
+        link: "https://x.com/",
+        icon: xImg,
+      },
+      {
+        id: "instagram",
+        title: "Instagram",
+        link: "https://www.instagram.com/",
+        icon: instagramImg,
+      },
+    ],
+    posts: [2],
+    featuredPosts: [2],
+  },
+  james_green: {
+    firstName: "James",
+    lastName: "Green",
+    name: "James Green",
+    title: "Cybersecurity Engineer",
+    bio: "James Green is a skilled Cybersecurity Engineer with a passion for designing and implementing robust security measures to safeguard digital assets from cyber threats",
+    image: jamesGreenAuthorImg,
+    links: [
+      {
+        id: "linkedin",
+        title: "LinkedIn",
+        link: "https://www.linkedin.com/",
+        icon: linkedinImg,
+      },
+      {
+        id: "x",
+        title: "X",
+        link: "https://x.com/",
+        icon: xImg,
+      },
+      {
+        id: "instagram",
+        title: "Instagram",
+        link: "https://www.instagram.com/",
+        icon: instagramImg,
+      },
+    ],
+    posts: [3],
+    featuredPosts: [3],
+  },
+  sara_joy: {
+    firstName: "Sara",
+    lastName: "Joy",
+    name: "Sara Joy",
+    title: "Investor",
+    bio: "As an investor, Sara leverages his financial expertise to make strategic investment decisions that maximize returns and achieve long-term financial goals",
+    image: saraJoyAuthorImg,
+    links: [
+      {
+        id: "linkedin",
+        title: "LinkedIn",
+        link: "https://www.linkedin.com/",
+        icon: linkedinImg,
+      },
+      {
+        id: "x",
+        title: "X",
+        link: "https://x.com/",
+        icon: xImg,
+      },
+      {
+        id: "instagram",
+        title: "Instagram",
+        link: "https://www.instagram.com/",
+        icon: instagramImg,
+      },
+    ],
+    posts: [4],
+    featuredPosts: [4],
+  },
+};
