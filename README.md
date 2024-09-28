@@ -82,14 +82,14 @@ A simple modern attractive blog
 
 ## 🎫 Dependencies
 
-- You can check package.json file for the project dependencies
+- You can check the package.json file for the project dependencies
 
 ## 📥 Installation
 
-1. Clone th project or download the zip version of the project than unzip it
+1. Clone the project or download the zip version of the project then unzip it
 2. You need to install [node.js=20.14.0](https://www.python.org/downloads/release/python-3110/), to ensure compatibility as the project built with it
 3. Add node.js to environment variables (PATH)
-4. Use the package manager npm to install all the dependencies specified within package.json file using command line within the root directory of the project:
+4. Use the package manager npm to install all the dependencies specified within the package.json file using the command line within the root directory of the project:
    ```shell
    npm install
    ```
@@ -100,11 +100,11 @@ To explore Blogmors, follow the following steps:
 
 1. Follow [📥 Installation](#-installation) process
 2. Run the development environment or build the production environment
-   - To run development environment, use th following command using command line within the root directory of the project:
+   - To run the development environment, use the following command using the command line within the root directory of the project:
      ```shell
      npm run dev
      ```
-   - To build the production environment, use th following command using command line within the root directory of the project:
+   - To build the production environment, use the following command using the command line within the root directory of the project:
      ```shell
      npm run build
      ```
