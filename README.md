@@ -4,7 +4,6 @@
 
 ## 📂 Table of Contents
 
-- [📂 Table of Contents](#-table-of-contents)
 - [📋 Project Description](#-project-description)
 - [✨ Features](#-features)
 - [⛏️ Built Using](#️-built-using)
@@ -21,7 +20,7 @@
 
 ## 📋 Project Description
 
-A simple modern attractive blog
+A simple, modern, attractive blog
 
 <div style="display:flex; justify-content: center;">
   <img src="src/assets/readme/snapshots/snapshot-2.png" alt="Project snapshot" />
@@ -29,12 +28,12 @@ A simple modern attractive blog
 
 ## ✨ Features
 
-- Simple modern attractive blog
+- Simple, modern, attractive blog
 - Clean and visually appealing layout
 - Responsive design
-- High performs
+- High performance
 - Easy navigation
-- Searachable posts
+- Searchable posts
 - Contain 4 pages
   - Home
   - Posts
