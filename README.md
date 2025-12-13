@@ -87,7 +87,7 @@ A simple modern attractive blog
 ## 📥 Installation
 
 1. Clone the project or download the zip version of the project then unzip it
-2. You need to install [node.js=20.14.0](https://www.python.org/downloads/release/python-3110/), to ensure compatibility as the project built with it
+2. You need to install [node.js=20.14.0](https://nodejs.org/en/blog/release/v20.14.0), to ensure compatibility as the project built with it
 3. Add node.js to environment variables (PATH)
 4. Use the package manager npm to install all the dependencies specified within the package.json file using the command line within the root directory of the project:
    ```shell
